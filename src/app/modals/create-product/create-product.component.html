@@ -1,0 +1,38 @@
+<form [formGroup]="form" (ngSubmit)="submit()">
+
+    <div class="p-field row p-inputgroup  ">
+        <label class="col-12"  for="nombre_producto">Nombre del producto</label>
+        <input class="col-8 p-inputtext-sm " id="nombre_producto" type="text" pInputText formControlName="nombre_producto"/>
+        <small class="text-danger"  *ngIf="form.get('nombre_producto')?.invalid && form.get('nombre_producto')?.touched">*El nombre del producto es obligatorio.</small>
+    </div>
+
+    <div class="p-field row p-inputgroup ">
+        <label class="col-12" for="categoria">Categoria</label>
+        <input class="col-8 p-inputtext-sm   " id="categoria" type="text" aria-describedby="lastname-help" pInputText formControlName="categoria"/>
+        <small class="text-danger" *ngIf="form.get('categoria')?.invalid && form.get('categoria')?.touched">*La categoria es obligatoria.</small>
+    </div>
+
+    <div class="p-field row p-inputgroup ">
+        <label class="col-12" for="cantidad_stock">Stock</label>
+        <input class="col-8 p-inputtext-sm  " id="cantidad_stock" type="text" aria-describedby="lastname-help" pInputText formControlName="cantidad_stock"/>
+        <small class="text-danger" *ngIf="form.get('cantidad_stock')?.invalid && form.get('cantidad_stock')?.touched">*La cantidad de stock es obligatoria</small>
+    </div>
+
+    <div class="p-field row p-inputgroup ">
+        <label class="col-12" for="precio">Precio</label>
+        <input class="col-8 p-inputtext-sm  " id="precio_unitario" type="text" aria-describedby="lastname-help" pInputText formControlName="precio_unitario"/>
+        <small class="text-danger" *ngIf="form.get('precio_unitario')?.invalid && form.get('precio_unitario')?.touched">*El precio es obligatorio</small>
+        
+    </div>
+    <div class="p-field row p-inputgroup">
+        <label class="col-12" for="proveedor">Proveedor</label>
+        <input class="col-8 p-inputtext-sm  " id="proveedor" type="text" aria-describedby="lastname-help" pInputText formControlName="proveedor"/>
+        <small class="text-danger" *ngIf="form.get('proveedor')?.invalid && form.get('proveedor')?.touched">*El nombre del proveedor es obligatorio.</small>
+        
+    </div>
+
+    <div class="d-flex justify-content-center mt-3">
+        <button class="p-button-raised p-button-text" styleClass="p-button-sm" pButton pRipple type="submit" label="Guardar" [disabled]="form.invalid"></button>
+        <button class="p-button-raised p-button-text" styleClass="p-button-sm" pButton pRipple type="submit" label="Cancelar" (click)=" selectCar()" class="p-button-danger"></button>
+    </div>     
+</form>

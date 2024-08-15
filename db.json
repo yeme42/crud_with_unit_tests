@@ -1,0 +1,125 @@
+{
+  "post": [
+    {
+      "id": "1",
+      "nombre_producto": "Samsung Galaxy A52",
+      "categoria": "Smartphones",
+      "cantidad_stock": "25",
+      "precio_unitario": "350000",
+      "proveedor": "Lider"
+    },
+    {
+      "id": "2",
+      "nombre_producto": "iPhone 12",
+      "categoria": "Smartphones",
+      "cantidad_stock": "15",
+      "precio_unitario": "800000",
+      "proveedor": "Movistar"
+    },
+    {
+      "id": "3",
+      "nombre_producto": "Xiaomi Redmi Note 10",
+      "categoria": "Smartphones",
+      "cantidad_stock": "30",
+      "precio_unitario": "250000",
+      "proveedor": "Tottus"
+    },
+    {
+      "id": "4",
+      "nombre_producto": "Huawei P40 Lite",
+      "categoria": "Smartphones",
+      "cantidad_stock": "20",
+      "precio_unitario": "320000",
+      "proveedor": "Entel"
+    },
+    {
+      "id": "5",
+      "nombre_producto": "Sony Xperia 10 II",
+      "categoria": "Smartphones",
+      "cantidad_stock": "18",
+      "precio_unitario": "400000",
+      "proveedor": "Falabella"
+    },
+    {
+      "id": "6",
+      "nombre_producto": "Motorola Moto G9",
+      "categoria": "Smartphones",
+      "cantidad_stock": "22",
+      "precio_unitario": "270000",
+      "proveedor": "Ripley"
+    },
+    {
+      "id": "7",
+      "nombre_producto": "Oppo Reno 5",
+      "categoria": "Smartphones",
+      "cantidad_stock": "28",
+      "precio_unitario": "450000",
+      "proveedor": "Lider"
+    },
+    {
+      "id": "8",
+      "nombre_producto": "Nokia 5.4",
+      "categoria": "Smartphones",
+      "cantidad_stock": "14",
+      "precio_unitario": "280000",
+      "proveedor": "Movistar"
+    },
+    {
+      "id": "9",
+      "nombre_producto": "Samsung Galaxy S21",
+      "categoria": "Smartphones",
+      "cantidad_stock": "12",
+      "precio_unitario": "900000",
+      "proveedor": "Tottus"
+    },
+    {
+      "id": "10",
+      "nombre_producto": "iPhone 13",
+      "categoria": "Smartphones",
+      "cantidad_stock": "16",
+      "precio_unitario": "950000",
+      "proveedor": "Entel"
+    },
+    {
+      "id": "11",
+      "nombre_producto": "Xiaomi Mi 11",
+      "categoria": "Smartphones",
+      "cantidad_stock": "19",
+      "precio_unitario": "500000",
+      "proveedor": "Falabella"
+    },
+    {
+      "id": "12",
+      "nombre_producto": "Huawei Mate 40 Pro",
+      "categoria": "Smartphones",
+      "cantidad_stock": "11",
+      "precio_unitario": "1200000",
+      "proveedor": "Ripley"
+    },
+    {
+      "id": "13",
+      "nombre_producto": "Realme 7 Pro",
+      "categoria": "Smartphones",
+      "cantidad_stock": "27",
+      "precio_unitario": "320000",
+      "proveedor": "Lider"
+    },
+    {
+      "id": "14",
+      "nombre_producto": "Asus Zenfone 8",
+      "categoria": "Smartphones",
+      "cantidad_stock": "13",
+      "precio_unitario": "700000",
+      "proveedor": "Movistar"
+    },
+    {
+      "id": "15",
+      "nombre_producto": "Vivo X60",
+      "categoria": "Smartphones",
+      "cantidad_stock": "21",
+      "precio_unitario": "550000",
+      "proveedor": "Tottus"
+    }
+  ]
+  
+}
