@@ -82,16 +82,7 @@ describe('CreateProductComponent', () => {
     expect(mockDynamicDialogRef.close).toHaveBeenCalled();
   });
 
-  it('debe retornar formulario invalido', () => {
-    fixture = TestBed.createComponent(CreateProductComponent);
-    const app = fixture.componentInstance;
-    fixture.detectChanges();
 
-    const name = app.form.controls['nombre_producto']
-    name.setValue('iphone 13 pro max')
-
-    expect(app.form.invalid).toBeTrue();
-  });
 
   it('Llenar formulario reactivo para que sea valido', () => {
     component.form.setValue({

@@ -53,7 +53,6 @@ export class TableProductComponent implements OnInit {
   delete(id:number){
     this.service.deleteProdut(id).subscribe((resp)=>{
       this.getProduct();
-      console.log("se elimino correctamente");
     }),
     (err:any)=>{
       console.log(err)
@@ -71,5 +70,7 @@ export class TableProductComponent implements OnInit {
     this.getProduct();
   });
   }
+
+  
 
 }
